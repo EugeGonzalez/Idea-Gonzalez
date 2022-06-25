@@ -1,0 +1,660 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ul,
+ol{
+    list-style-type: none;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+
+.mainIndex{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "portada portada"
+    "info info"
+    "footer footer";
+}
+
+/*  BARRA DE NAVEGACION  */
+
+.header{
+    background-color: #ffffff;
+
+    padding: 1.25rem;
+    
+    
+    
+}
+
+.header .logo {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+
+.logo h1{
+    
+    font-size: 1.875rem;
+}
+
+.logo .iniciales-logo {
+	padding: 0.3125rem;
+	border: 2px solid #000;
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+/* PORTADA */
+
+.portada-bienvenida{
+    display: flex;
+	background: #fff;
+	
+    grid-area:portada;
+
+    border: 1px solid black;
+
+    
+}
+
+.portada-bienvenida .contenedor-texto{
+    padding: 1.25rem;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo-bienvenida{
+    margin-bottom: 10px;
+    font-size: 1.5625rem;
+
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.contenedor-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.texto-descripcion{
+    font-size: 1.25rem;
+    font-weight: 300;
+
+    margin-bottom: 20px;
+    color:  #464849;
+}
+
+.portada-bienvenida .contenedor-img a{
+    display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*   INFORMACION   */
+
+     /* ----actividades---- */
+
+
+
+
+#actividades-fisicas h3{
+    padding: 1.25rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+
+    
+
+}
+
+.actividades{
+    padding: 1.25rem;
+    border: 2px solid black;
+    border-radius:20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    min-width:15.625rem;
+    margin: 0 20px;
+
+
+}
+
+#actividades-fisicas{
+    grid-area: info;
+    
+}
+
+.contenedor-act{
+
+    padding: 1.25rem;
+    width:15.625rem;
+
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+.actividades h4{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.actividades img{
+    width: 100%;
+}
+
+
+ /* ACTIVIDADES HTML*/
+
+
+ 
+
+
+ .tituloPrincipal{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+
+    padding: 0.625em;
+}
+
+.tituloDiv{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1.25rem;
+
+    padding: 0.625em;
+
+    
+}
+
+.spanNew{
+    font-weight: bold ; color: orange;
+}
+
+.subtituloDiv{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+
+    padding: 0.625em;
+
+    
+}
+
+.textos {
+    font-family: 'Poppins', sans-serif;
+
+    padding: 0.625em;
+
+    
+}
+
+
+  /* --- horarios ---*/
+
+.horarios-clases{
+    padding: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+
+    grid-area: info;
+}
+
+.titulo-horarios{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+
+    padding: 0.625rem;
+}
+
+.tabla-horarios{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
+/* FORMULARIO/CONTACTO HTML */
+
+.contenedor-form{
+    border: 1px solid black;
+    width: 40%;
+    height: 70%;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+    
+}
+
+#tituloForm{
+    text-align: center;
+    
+    background-color: #caa0797e;
+
+    padding: 0.625em;
+    
+}
+.subTexto{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.inicioForm{
+    font-family: 'Poppins', sans-serif;
+   
+    background-color: #caa0795e;
+    text-align: center;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*  NOSOTROS HTML  */
+
+
+.tituloTarjeta{
+    font-family: 'Poppins', sans-serif; color: orange;
+    font-weight: normal;
+    font-size: 1.25rem;
+
+    padding-left: 0.625em;
+}
+
+
+/* MAIN UBICACION */
+.tituloUbi{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.inicioUbi{
+    text-align: center;
+}
+
+.clickUbi{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-align: center; 
+}
+
+
+/*   FOOTER   */
+
+footer{
+    width: 100%;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    
+    grid-area: footer;
+}
+
+
+
+.titulos-footer{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.contenedor-f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+
+
+
+@media (max-width:768px){
+
+    .mainIndex{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "portada portada"
+    "info info"
+    "footer footer";
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1rem;
+    }
+
+    .actividades{
+
+        margin: 0 10px;
+        display:flex;
+        min-width:165px;
+    }
+
+
+    .contenedor-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto-descripcion{
+        font-size: 1rem;
+        font-weight: 300;
+
+        margin-bottom: 20px;
+        display: flex;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:320px){
+    /* HORARIOS*/
+    .tabla-horarios{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+        font-size: 0.5rem;
+    }
+
+    .horarios-clases{
+        padding: 0.625rem;
+    
+        display: flex;
+        flex-direction: column;
+    
+       
+    }
+    
+    .titulo-horarios{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+    
+        padding: 0.625rem;
+    }
+    
+    
+
+    /* portada */
+
+    .portada-bienvenida{
+
+        
+
+        border: 1px solid black;
+        display: grid;
+
+        grid-template-columns: 35rem;
+        grid-template-rows: repeat(2,30vh) ;
+
+        grid-template-areas: 
+        "titulo"
+        "descripcion"
+        "img";
+    }
+
+    .portada-bienvenida .contenedor-texto{
+        padding: 10px;
+        width: 55%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .titulo-bienvenida{
+        grid-area:titulo;
+        font-size: 1.2rem;
+        display:flex;
+        text-align: center;
+
+        
+    }
+
+    .texto-descripcion{
+        grid-area:descipcion;
+        font-size: 0.7rem;
+
+        margin-bottom: 10px;
+
+        display: flex;
+        text-align: center;
+    }
+
+
+
+    .contenedor-img img{
+        grid-area:img;
+        height: 80%;
+        width: 57%;
+
+        display: flex;
+        
+
+    }
+    
+    
+    /* ACTIVIDADES */
+    #actividades-fisicas h3{
+        font-size: 1.2rem;
+    }
+
+    .actividades{
+        padding: 15px;
+        border: 1px solid black;
+        border-radius:10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        min-width:200px;
+        margin: 0 10px;
+
+
+    }
+    
+    .contenedor-act{
+        overflow-x:scroll;
+        width: 100%;
+
+       
+    }
+
+    /* HEADER-NAV*/
+    .header .logo {
+        margin-bottom: 10px;
+        
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    
+    
+    .logo h1{
+        
+        font-size: 1.25rem;
+    }
+    
+    .logo .iniciales-logo {
+        padding: 5px;
+       
+        display: inline-block;
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.6rem;
+    }
+
+   /*FOOTER*/
+    footer{
+        width: 100%;
+        
+        font-size: 0.9rem;
+       
+        text-align: center;
+        align-items: center;
+
+    }
+
+    
+    
+    .titulos-footer{
+        font-weight: bold;
+        font-size: 0.8em;
+
+        text-align: center;
+        align-items: center;
+    }
+    
+    .contenedor-f{
+
+        grid-template-columns: repeat(3,1fr);
+        display: grid;
+        flex-direction: column;
+        justify-content: space-around;
+
+        
+    }
+    
+    /*actividades html*/
+    .tituloPrincipal{
+        font-size: 1.5rem;
+    }
+
+    .tituloDiv{
+        font-size: 1rem;
+    }
+
+    .subtituloDiv{
+        font-size: 0.9rem;
+    }
+
+    .textos{
+        font-size: 0.8rem ;
+    }
+
+    .main-actividades img{
+        width: 100%;
+
+    }
+
+    /*contacto*/
+
+    
+    
+    .subTexto{
+       
+        font-size: 1.8rem;
+    }
+
+    form{
+        
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    
+    /*nosotros*/
+
+    
+
+    .tituloTarjeta{
+        
+        font-size: 1rem;
+    
+        
+    }
+
+
+    /* ubicacion */
+
+    .inicioUbi img{
+
+        padding: 20px;
+        width: 100%;
+    }
+
+    .tituloUbi{
+        
+        font-size: 1.5rem;
+        
+    }
+    
+    
+    
+    .clickUbi{
+        
+        font-size: 0.8rem;
+        
+    }
+}
+
+@media(max-width:1024px){
+    .contenedor-img img{
+        height: 100%;
+    }
+
+
+
+
+
+    .actividades {
+        
+        
+   
+
+       display: flex;
+    
+       justify-content: space-around;
+       align-items: center;
+    
+
+       min-width:230px;
+       margin: 0 10px;
+
+    }
+
+    
+}

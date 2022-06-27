@@ -175,8 +175,31 @@ nav ul {
 
  /* ACTIVIDADES HTML*/
 
+.main-actividades{
+    display: grid;
+    
+    grid-template-rows: 15vh repeat(4,1fr);
+}
 
- 
+article{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.funcional{
+    grid-column: 2 / 3;
+    grid-row: 2 ;
+}
+
+.imagen1{
+    
+    grid-column: 1 / 2;
+    grid-row: 2;
+
+    padding: 20px;
+
+}
+
 
 
  .tituloPrincipal{

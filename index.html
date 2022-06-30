@@ -8,6 +8,8 @@
     <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
     <enlace href="https: //fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;1,100;1,300 & family= Roboto:ital,wght@0,100;0,300;1,100;1,300 & display=swap" rel="hoja de estilo ">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Gimnasio BothFit</title>
 </head>
@@ -34,15 +36,15 @@
     
     <main class="container-fluid mainIndex">
     <!-- PORTADA DE BIENVENIDA -->
-        <section class="container row portada-bienvenida">
-            <div class="col-6 contenedor-texto">
+        <section class="container row d-flex justify-content-center portada-bienvenida">
+            <div class="col-6  contenedor-texto">
                 <div>
                     <h2 class="titulo-bienvenida">BIENVENIDOS A GIMNASIO BOTHFIT</h2>
                 </div>
                 <p class="texto-descripcion">Somos Bothfit un gimnasio con todo lo que necesitas. Esta es nuestra web, donde vas  poder encontrar nuestra informacion</p>
 			
 		    </div>
-            <div class="col-6 contenedor-img">
+            <div class="col-6  contenedor-img">
                 <a>
                 <img src="./galeria/imagenBienvenida.webp" alt ="" />
 			    </a >
@@ -54,32 +56,32 @@
             <h3><a href="./paginas/actividades.html">ACTIVIDADES</a></h3>
 
             
-            
-            <div class="contenedor-act">
-                <article class="actividades">
-                    <h4>FUNCIONAL</h4>
+            <div class="container row">
+                <div class="contenedor-act">
+                    <article class="col col-md-6 actividades">
+                     <h4>FUNCIONAL</h4>
 
-                    <img src="./galeria/funcional.jpg" alt="actividad-funcional">
-                </article>
+                     <img src="./galeria/funcional.jpg" alt="actividad-funcional">
+                    </article>
 
-                <article class="actividades">
-                    <h4>MUSCULACION</h4>
+                     <article class="col col-md-6 actividades">
+                      <h4>MUSCULACION</h4>
 
-                    <img src="./galeria/musculacion.jpg" alt="actividad-funcional">
-                </article>
+                      <img src="./galeria/musculacion.jpg" alt="actividad-funcional">
+                    </article>
 
-                <article class="actividades">
-                    <h4>NATACION</h4>
+                    <article class="col col-md-6 actividades">
+                      <h4>NATACION</h4>
 
-                    <img src="./galeria/natacion.png" alt="actividad-funcional">
-                </article>
+                      <img src="./galeria/natacion.png" alt="actividad-funcional">
+                    </article>
 
-                <article class="actividades">
-                    <h4>ZUMBA</h4>
+                    <article class="col col-md-6  actividades">
+                      <h4>ZUMBA</h4>
 
-                    <img src="./galeria/zumba.jpg" alt="actividad-funcional">
-                </article>
-                
+                      <img src="./galeria/zumba.jpg" alt="actividad-funcional">
+                    </article>
+                </div>
             </div>
 
         </section>
@@ -88,7 +90,7 @@
         <!-- SECCION HORARIOS -->
         <section class="horarios-clases">
             <h5 class="titulo-horarios">HORARIOS</h3>
-            <table border="1" class="tabla-horarios" > 
+            <table border="1" class="container tabla-horarios" > 
                 <tr>
                     <th>Lunes</th>
                     <th>Martes</th>
@@ -123,7 +125,7 @@
         <hr>
 
     <!-- SECCION FOOTER -->    
-        <footer>
+        <footer class="container-fluid">
             <div class="logo">
                 <p class="iniciales-logo">GB</p>
                
@@ -157,6 +159,8 @@
 
         
     </main>
+
+    
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

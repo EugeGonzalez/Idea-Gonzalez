@@ -22,6 +22,8 @@ body{
     "footer footer";
 }
 
+
+
 /*  BARRA DE NAVEGACION  */
 
 .header{
@@ -438,7 +440,8 @@ footer{
 
         margin: 0 10px;
         display:flex;
-        min-width:165px;
+        min-width:10.3125rem;
+        
     }
 
 
@@ -706,6 +709,7 @@ footer{
 @media(max-width:1024px){
     .contenedor-img img{
         height: 100%;
+        width: 100%;
     }
 
 

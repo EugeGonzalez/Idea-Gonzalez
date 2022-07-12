@@ -95,7 +95,8 @@
     padding: 0.625em;
 
     .spanNew{
-    font-weight: bold ; color:$color-principal;
+    font-weight: map-get($estilos,peso) ; 
+    color:$color-principal;
 
   }
 

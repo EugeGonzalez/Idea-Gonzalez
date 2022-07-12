@@ -1,18 +1,18 @@
 .contenedor-form{
-    border: 1px solid black;
+    border: $border-card;
     width: 40%;
     height: 70%;
 
     display: flex;
-    justify-content: center;
+    justify-content: map-get($estilos,centro );
 
     margin: 0 auto;
 
 
     #tituloForm{
-        text-align: center;
+        text-align: map-get($estilos,centro );
         
-        background: linear-gradient(120deg, #d3cfcfea 0%, #888888c0 100%);
+        background: $gradiente;
     
         padding: 0.625em;
         
@@ -29,11 +29,11 @@
     font-family: $font-family;
    
     background: linear-gradient(120deg, #dfdada 0%, #e8ebec 100%);
-    text-align: center;
+    text-align: map-get($estilos,centro );
 
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: map-get($estilos,centro );
+    align-items: map-get($estilos,centro );
 }

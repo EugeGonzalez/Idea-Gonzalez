@@ -30,7 +30,7 @@
 
     nav{
     
-        text-align: center;
+        text-align: map-get($estilos,centro );
         
         
         ul{
@@ -85,7 +85,7 @@
         grid-area:titulo;
         font-size: 1.2rem;
         display:flex;
-        text-align: center;
+        text-align: map-get($estilos,centro );
 
         
     }
@@ -97,13 +97,13 @@
         margin-bottom: 10px;
 
         display: flex;
-        text-align: center;
+        text-align: map-get($estilos,centro );
     }
 
 
     .tabla-horarios{
         display: flex;
-        text-align: center;
+        text-align: map-get($estilos,centro );
         flex-direction: column;
 
         font-size: 0.5rem;
@@ -141,7 +141,7 @@
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: map-get($estilos,centro );
 
         min-width:200px;
         margin: 0 10px;
@@ -163,19 +163,19 @@
         
         font-size: 0.9rem;
        
-        text-align: center;
-        align-items: center;
+        text-align: map-get($estilos,centro );
+        align-items: map-get($estilos,centro );
 
     }
 
     
     
     .titulos-footer{
-        font-weight: bold;
+        font-weight: map-get($estilos,peso);
         font-size: 0.8em;
 
-        text-align: center;
-        align-items: center;
+        text-align: map-get($estilos,centro);
+        align-items: map-get($estilos,centro);
     }
     
     .contenedor-f{
@@ -221,7 +221,7 @@
 
     form{
         
-        text-align: center;
+        text-align: map-get($estilos,centro );
         font-size: 0.8rem;
     }
     
@@ -339,7 +339,7 @@
        display: flex;
     
        justify-content: space-around;
-       align-items: center;
+       align-items: map-get($estilos,centro );
     
 
        min-width:230px;

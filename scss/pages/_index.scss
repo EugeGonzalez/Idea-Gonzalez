@@ -27,7 +27,7 @@
 
     font-weight: 400;
 
-    text-align: center;
+    text-align: map-get($estilos,centro );
 }
 
 .contenedor-img img{
@@ -61,15 +61,15 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: map-get($estilos,centro );
+    align-items: map-get($estilos,centro );
     
 
     min-width:15.625rem;
     margin: 0 20px;
 
     h4{
-        text-align: center;
+        text-align: map-get($estilos,centro );
         font-family: $font-family;
         font-weight: 400;
     }
@@ -90,7 +90,7 @@
     width:15.625rem;
 
     display: flex;
-    align-items: center;
+    align-items: map-get($estilos,centro );
     
 }
 
@@ -117,7 +117,7 @@
 .tabla-horarios{
     font-family: $font-family;
     font-size: 1.25rem;
-    text-align: center;
+    text-align: map-get($estilos,centro );
     
 }
 

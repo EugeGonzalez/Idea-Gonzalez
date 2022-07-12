@@ -1,0 +1,129 @@
+.portada-bienvenida{
+    display: flex;
+	background: $gradiente;
+    
+
+    border: 1px solid black;
+
+    box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+    .contenedor-texto{
+        padding: 1.25rem;
+        width: 50%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contenedor-img a{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    } 
+}
+
+.titulo-bienvenida{
+    margin-bottom: 10px;
+    font-size: 1.5625rem;
+
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.contenedor-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.texto-descripcion{
+    font-size: 1.25rem;
+    font-weight: 300;
+
+    margin-bottom: 20px;
+    color:  #464849;
+}
+
+
+
+#actividades-fisicas h3{
+    padding: 1.25rem;
+
+    font-family: $font-family;
+    font-size: 2rem;
+
+}
+
+.actividades{
+    padding: 1.25rem;
+    border: 2px solid black;
+    border-radius:20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    min-width:15.625rem;
+    margin: 0 20px;
+
+    h4{
+        text-align: center;
+        font-family: $font-family;
+        font-weight: 400;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+
+.contenedor-act{
+
+    padding: 1.25rem;
+    width:15.625rem;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.horarios-clases{
+    padding: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+.titulo-horarios{
+    font-family: $font-family;
+    font-size: 2rem;
+
+    padding: 0.625rem;
+    
+
+    
+}
+
+.tabla-horarios{
+    font-family: $font-family;
+    font-size: 1.25rem;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+

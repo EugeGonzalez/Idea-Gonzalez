@@ -71,14 +71,14 @@
 
 
 .tituloPrincipal{
-    font-family: 'Poppins', sans-serif;
+    font-family: $font-family;
     font-size: 2rem;
 
     padding: 0.625em;
 }
 
 .tituloDiv{
-    font-family: 'Poppins', sans-serif;
+    font-family: $font-family;
     font-weight: normal;
     font-size: 1.25rem;
 
@@ -88,21 +88,21 @@
     
 
 .subtituloDiv{
-    font-family: 'Poppins', sans-serif;
+    font-family: $font-family;
     font-weight: normal;
     font-size: 1rem;
 
     padding: 0.625em;
 
     .spanNew{
-    font-weight: bold ; color: orange;
+    font-weight: bold ; color:$color-principal;
 
   }
 
 }
 
 .textos {
-    font-family: 'Poppins', sans-serif;
+    font-family: $font-family;
 
     padding: 0.625em;
 

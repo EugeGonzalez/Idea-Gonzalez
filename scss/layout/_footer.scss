@@ -21,7 +21,7 @@ footer{
 }
 
 @each $red, $color in $redes{
-    .bi--#{$red}{
+    .bi-#{$red}{
         color:$color;
     }
 }
